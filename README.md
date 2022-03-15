@@ -15,12 +15,15 @@
 - 一些关键字：static, const, extern, volatile 等
 - 四种类型转换：static_cast、dynamic_cast、const_cast、reinterpret_cast
 - 静态与多态：重写、重载、模板
+- 静态多态和动态多态
 - 四种智能指针及底层实现：auto_ptr、unique_ptr、shared_ptr、weak_ptr
 - 右值引用、完美转发（c++11）
 - std::move函数
 - 一些重要的 STL：vector, list, map, set 等。
 - 容器对比，如 map 与 unordered_map 对比，set 与 unordered_set 对比，vector 与 list 比较等。
 - 智能指针
+- C 语言的内存机制
+- malloc free new delete 区别
 - 
 
 ### C++相关书籍整理
@@ -37,6 +40,7 @@
 ## 操作系统
 
 ### 操作系统常见问题整理
+- 系统调用过程
 - 进程线程区别
 - 进程通信方式
 - 线程通信方式
@@ -45,12 +49,16 @@
 - 同步、异步、阻塞、非阻塞
 - 静态链接和动态链接
 - 虚拟内存
+- 用户态和内核态的区别以及切换代价
 - 互斥锁和自旋锁底层区别
 - 孤儿进程和僵尸进程
 - 虚拟内存
 - 异常处理（中断、陷阱、故障、终止）
 - 操作系统内存管理
 - 虚拟文件系统（VFS）
+- 银行家算法
+- 实现一个 LRU cache
+- 内存泄露的场景、处理方法
 
 ### 书籍推荐
 - 鸟哥 linux 私房菜
@@ -66,7 +74,11 @@
   -  TCP 三次握手，四次挥手
   -  TCP 流量控制，拥塞避免
   -  SYN 泛洪
+  -  粘包和分包
+  -  timewait 等待2MSL原因
+- 为什么要有 mac 地址，mac 地址从何而来
 - IO 多路复用（select,poll,epoll）
+- 在浏览器数据一个网址所经历的过程
 - 边缘触发和水平触发
 - 基于事件驱动的reactor模式
 - 反向代理、负载均衡
@@ -81,12 +93,21 @@
 - 深入理解 nginx
 
 ## 数据结构与算法
-
+- 堆排序
+- 单调栈、单调队列（接雨水、最大矩阵面积）
+- 
 
 ## 数据库
 ### Mysql
+- 一个 sql 语句，数据库中做了什么？
+- 
 
 ### Redis
+- 五种数据结构
+- 持久化（AOF、RDB）
+- 数据分片
+- 主从复制
+- redis 集群
 
 
 
